@@ -24,12 +24,18 @@
     <ClCompile Include="AitkenInterpolation.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
+    <ClCompile Include="NewtonInterpolation.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LagrangeInterpolation.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
     <ClInclude Include="AitkenInterpolation.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="NewtonInterpolation.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>

@@ -79,10 +79,12 @@
     <ClCompile Include="AitkenInterpolation.cpp" />
     <ClCompile Include="LagrangeInterpolation.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NewtonInterpolation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AitkenInterpolation.h" />
     <ClInclude Include="LagrangeInterpolation.h" />
+    <ClInclude Include="NewtonInterpolation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

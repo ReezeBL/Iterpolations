@@ -1,6 +1,7 @@
 #include <iostream>
 #include "LagrangeInterpolation.h"
 #include "AitkenInterpolation.h"
+#include "NewtonInterpolation.h"
 using namespace std;
 
 
@@ -15,10 +16,12 @@ int main(){
 		cin >> points[i] >> values[i];
 	LagrangeInterpolation L(n,points,values);
 	AitkenInterpolation A(n,points,values);
+	NewtonInterpolation N(n,points,values);
 	double x;
 	cout << "Введите точку расчета: ";
 	cin >> x;
 	cout << "В данной точке значение полинома Лагранжа - " << L(x) << endl;
-	cout << "В данной точке значение полинома Лагранжа по методу Эйткена - " << A(x) << endl;
+	cout << "В данной точке значение полинома Эйткена - " << A(x) << endl;
+	cout << "В данной точке значение полинома Ньютона - " << N(x) << endl;
 	return 0;
 }
